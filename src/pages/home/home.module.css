@@ -1,0 +1,105 @@
+
+.titulo{
+    font-family: "Cedarville Cursive", cursive;
+    background: linear-gradient(90deg, rgb(35, 35, 139), rgb(0, 255, 64));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 3;
+}
+.homeheader{
+    background-image: url("../../assets/papel.jpeg");
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    z-index: 0;
+
+}
+
+.delogin{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+}
+
+.homeheader p{
+    color: black;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 20px;
+    z-index: 3;
+    padding: 50px;
+}
+.homeheader h1{
+    padding-top: 300px;
+}
+
+.homemain{
+    align-items: center;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+.homemain img{
+    display:  block;
+    width: 100px;
+    height: 100px;
+
+}
+footer{
+    text-align: center;
+    color: white;
+    top: 58%;
+    position: relative;
+}
+@media(max-width:900px){
+    .titulo{
+        font-size: 30px;
+        text-shadow: none;
+    }
+    .homeheader h1{
+        padding-top: 120px;
+    }
+    .homeheader p{
+        font-size: 15px;
+    }
+    .homemain{
+        padding: 0;
+    }
+     .homeheader p {
+        padding-top: 0;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+@media(max-width: 500px){
+    .homeheader{
+         padding: 80px 5px 20px;
+    }
+    .homeheader h1{
+        padding-top: 50px;
+    }
+   .homeheader p{
+    padding: 10px;
+   }
+   footer{
+    font-size: 10px;
+    top: 58%;
+   }
+}
+@media(max-width:400px){
+    .titulo{
+        font-size: 15px;
+    }
+    .homeheader h1{
+        padding-top: 90px;
+    }
+    .homeheader{
+        padding: 70px 5px 20px;
+        margin: 0;
+    }
+    
+}
+
